@@ -14,7 +14,7 @@ const Hello = ({ name }: HelloProps) => {
     </div>
   )
 }
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className={styles.app}>
       <header className={styles.appHeader}>
