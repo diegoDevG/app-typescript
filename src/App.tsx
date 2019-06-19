@@ -5,12 +5,16 @@ import styles from './App.module.scss';
 
 interface HelloProps {
   name?: string
+
 }
 
 const Hello = ({ name }: HelloProps) => {
+
+  let edad = 4;
+
   return (
     <div>
-      Hello {name}
+      Hello {name} Edad  {edad}
     </div>
   )
 }
